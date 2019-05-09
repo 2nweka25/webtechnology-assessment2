@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/scss" href="/Simple-Vue-Webpack-and-SASS/sass/main.scss" />
+    <title>Sustainable tourism in GOA</title>
+    
+    <!--Style-->
+    <style>
+    body{
+        font-family: arial;
+        background-color: orange;
+        background-image: url('../src/images/backgroundimage.png');
+    }
+    h1{
+        font-size: 40px;
+        color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: orange;
+    }
+    
+    .headertext{
+      color: orange;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+    
+    .innerBox{
+      background-color: white;
+      border: 2px solid lawngreen;
+      border-radius: 12px;
+      padding: 70px;
+      margin: 30px;
+    }
+    
+    #footer{
+      background-color: black;
+      color: white;
+      padding: 30px;
+      margin: 30px;
+      border: 2px solid lawngreen;
+      border-radius: 12px;
+      
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li{
+        float: left;
+    }
+    
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active){
+        background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+    
+    blockquote{
+        border: dotted;
+    }
+    div.picture {
+      border: 1px solid #ccc;
+    }
+    
+    div.picture:hover {
+      border: 1px solid #777;
+    }
+    
+    div.picture img {
+      width: 100%;
+      height: auto;
+    }
+    
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .header {
+      padding: 80px;
+      text-align: center;
+      background-image: url("../src/images/goabanner.jpg");
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .mainPicture {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .mainPicture {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    </style>
+</head>
+<body>
+    <!--heading picture-->
+    <div class="header">
+    	<h1>Goa's Eco-Tourism</h1>
+    	<p class="headertext">Help keep <b>Goa's Tourism</b> Sustainable.</p>
+    </div>
+    <!--navigation bar -->
+    <ul id="page">
+        <li class="topNaviagationLink"><a href="index.html">Home</a></li>
+        <li class="topNaviagationLink"><a href="index.html">About</a></li>
+        <li class="topNaviagationLink"><a href="../src/newsletter.html">Newsletter</a></li>
+        <li class="topNaviagationLink"><a href="../src/gallery.html">Gallery</a></li>
+	    <li class="topNaviagationLink"><a href="../src/contact.html">Contact</a></li>
+	</ul>
+
+    <div class="contentBox">
+    	<div class="innerBox">
+        	<h2>GOA Tourism Boom</h2>
+          <div class="contentText">
+            <p>Goa sudden rise to become one of the worlds best destinations can not 
+        be understated, as in just 2017 7.7 million tourist visited the dwarf state.</a></p>
+            <br />
+        <p>
+            The rise in tourism in Goa has had a huge impact environmentally on core issues such as control of 
+            pollution of air, water, noise and waste management which are plaguing Goa.
+        </p><br />
+
+                <blockquote><p>"When we pollute the environment, changes are likely to occur as it adjusts itself resulting in disastrous consquences like degradation
+                of the environment,flooding and global warming,just to mention a few.<a> By Travel and tourism council 2019</a>
+               
+                </p></blockquote>
+            </div>
+
+    <h2>Eco-Tourism</h2>
+    <div class="contentText">
+        <p>
+          Eco-tourism is a nature-based form of specialty travel, Eco-tourism is not only nature-based it should also have a minimal
+          impact on the environment at worst and at best can be a benefit to local communities and aid restoration and protection of the
+          ecosystem which this form of tourism benefits off.
+          
+        </p><br />
+        
+        <p>Ecotourism is about uniting conservation, communities, and sustainable travel. This means that those who implement, participate in and market ecotourism activities should adopt the following ecotourism principles:
+Minimize physical, social, behavioral, and psychological impacts.
+Build environmental and cultural awareness and respect.
+Provide positive experiences for both visitors and hosts.
+Provide direct financial benefits for conservation.
+Generate financial benefits for both local people and private industry.
+Deliver memorable interpretative experiences to visitors that help raise sensitivity to host countries’ political, environmental, and social climates.
+Design, construct and operate low-impact facilities.
+Recognize the rights and spiritual beliefs of the Indigenous People in your community and work in partnership with them to create empowerment.
+        </p>
+    </div>
+        
+        
+    <h2>Village Tourism</h2>
+    <div class="contentText">
+        <p>villages act as the roots of a country. villages are the mirror of country's culture , art , foods and natural beauty.
+        In ancient India, the villages determined the economic conditions of kingdoms but the invasion towns and cities started growing at the cost of villages.
+        Still the real soul of our country lives in villages.
+        therefore in the village tourism we get to know the real culture and rich heritage of the nation. 
+        </p><br />
+        
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. 
+        Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. 
+        Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.
+        </p><br />
+        
+        <p>Vestibulum augue quam, interdum id, congue semper, convallis non, velit. Quisque augue tortor, tristique ac, scelerisque eget, aliquam id, sem. Aenean lorem.
+          Fusce velit nibh, dapibus quis, laoreet nec, porta a, dui. Nullam ac urna. Proin eget elit.
+          Nunc scelerisque venenatis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          Fusce congue, turpis ut commodo mattis, pede erat fringilla tellus, pulvinar suscipit odio lorem sed pede.
+        </p>
+    </div>
+    <div id="footer">
+        <p>&copy: Copyright 2019</p>
+        <p>Web Development By Anthony Nweke</p>
+        <p id="demo"></p>
+    </div>
+    <div id="app">
+    
+        <hello-component></hello-component>
+    
+    
+    </div>
+<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
